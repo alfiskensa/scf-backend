@@ -26,7 +26,8 @@ import com.querydsl.jpa.JPQLQuery;
 import com.querydsl.jpa.impl.AbstractJPAQuery;
 
 public class ExtendedEntityGraphQuerydslRepository<T, ID extends Serializable> extends EntityGraphQuerydslRepository<T, ID> 
-		implements OffsetLimitQuerydslPredicateExecutor<T>, EntityGraphOffsetLimitQuerydslPredicateExecutor<T>, EntityGraphProjectionQueryDslPredicateExecutor<T>
+		implements OffsetLimitQuerydslPredicateExecutor<T>, EntityGraphOffsetLimitQuerydslPredicateExecutor<T>, 
+		EntityGraphProjectionQueryDslPredicateExecutor<T>
 {
 	private final EntityPath<T> path;
 	private final Querydsl querydsl;
