@@ -3,7 +3,7 @@ package com.prodain.scf.model.entity;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
-import com.prodain.scf.util.Constants;
+import com.prodain.scf.common.util.Constants;
 
 import lombok.Getter;
 import lombok.Setter;

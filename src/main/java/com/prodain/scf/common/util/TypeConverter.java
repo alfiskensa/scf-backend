@@ -1,4 +1,4 @@
-package com.prodain.scf.util;
+package com.prodain.scf.common.util;
 
 import java.lang.reflect.Constructor;
 import java.math.BigDecimal;

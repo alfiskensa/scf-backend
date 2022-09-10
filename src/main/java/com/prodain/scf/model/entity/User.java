@@ -17,8 +17,8 @@ import javax.persistence.Table;
 import org.hibernate.annotations.Type;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
-import com.prodain.scf.stereotype.HasName;
-import com.prodain.scf.util.Constants;
+import com.prodain.scf.common.stereotype.HasName;
+import com.prodain.scf.common.util.Constants;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

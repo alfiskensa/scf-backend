@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonSubTypes.Type;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;
 import com.prodain.scf.common.rest.RestFilter.Operator;
-import com.prodain.scf.util.TypeConverter;
+import com.prodain.scf.common.util.TypeConverter;
 
 import lombok.Getter;
 import lombok.Setter;

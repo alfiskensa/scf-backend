@@ -1,4 +1,4 @@
-package com.prodain.scf.stereotype;
+package com.prodain.scf.common.stereotype;
 
 public interface ILookup extends HasName
 {
