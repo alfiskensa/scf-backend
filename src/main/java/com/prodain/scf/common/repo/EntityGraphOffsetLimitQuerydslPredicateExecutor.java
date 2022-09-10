@@ -17,6 +17,6 @@ public interface EntityGraphOffsetLimitQuerydslPredicateExecutor<T> extends Offs
 	@Override
 	default <S extends T, R> R findBy(Predicate predicate, Function<FetchableFluentQuery<S>, R> queryFunction) {
 		// TODO Auto-generated method stub
-		return null;
+		return findBy(predicate, queryFunction);
 	}
 }
